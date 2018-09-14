@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-attachment: fixed;  
+    background-size: cover;
+}
+
+.unexploded {
+    background-image: url(../img/simcity.jpg);
+}
+
+.exploded {
+    background-image: url(../img/explosion.jpg);
+}
+
+main {
+    background-color: black;
+    height: 45%;
+    /* min-width: 125px; */
+    width: 13%;
+    padding: 0.5em;
+    margin: 6% auto;
+}
+
+div {
+    text-align: center;
+}
+
+.timer {
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+div p {
+    color: red;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+div button {
+    width: 90%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
